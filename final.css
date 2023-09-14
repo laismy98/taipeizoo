@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	scroll-behavior:smooth;
+}
+#header{
+	z-index:1;
+	font-family: 'Domine', serif;
+}
+#noidung{
+	z-index:2;
+}
+#modau h1{
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size:70px;
+}
+ion-icon{
+	font-size:27px;
+}	
+.p2 {
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+}
+
+.p2:before {
+    position: absolute;
+	content: "";
+    top: 0;
+    left: 0;
+    right: 48px;
+    bottom: 48px;
+    border: 5px solid #285430;
+}
+
+.p2 img {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    width: 100%;
+	background-size:cover;
+}
+
+#gioithieu h2{
+	color: #285430;
+	font-family: 'Domine', serif;
+}
+#gioithieu p{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.khungxanh{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.card-body{
+	color:#A4BE7B;
+}
+.card-news{
+	color: #285430;
+}
+#news{
+	background-color:#A4BE7B;
+}
+.animals{
+	color:#285430;
+}
+.animals ul{
+	list-style-type:square;
+}
+.animals li{
+	margin-bottom:20px;
+}
+.xanhladam{
+	background-color:#285430;
+	padding:10px;
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.xanhladam:hover{
+	text:white;
+	background-color:black;
+}
+#news h1{
+	font-family: 'Domine', serif;
+}
+.card-body p{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.past-event li{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.animals h3{
+	font-family: 'Domine', serif;
+}
+.kieuchu {
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 90px;
+	color:#A4BE7B;
+}
+.animals p{
+	font-family: 'Be Vietnam Pro', sans-serif;}
+.animals a{
+	font-family: 'Be Vietnam Pro', sans-serif;}
+.event h1{
+	font-family: 'Domine', serif;
+}	
+.event p{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.time h3{
+	color:#285430;
+}
+.end{
+	background-color:#A4BE7B;
+	padding:80px;
+}
+.event h1{
+	background-color:#285430;
+}
+.past-event ul{
+	list-style-type:none;
+}
+#support h1{
+	font-family: 'Domine', serif;
+}
+#support p{
+	font-family: 'Be Vietnam Pro', sans-serif;}
+.time p{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+.taochu{
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 60px;
+}
